@@ -1,3 +1,4 @@
+//Eric Wan
 //A script I wrote for uh, no reason?
 var txt = "<p>Here's some of your info: </p>";
 var platform = navigator.platform;
