@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>AR Firefighter Mask</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Eric&#39;s Interblagosphere</h1> <!-- yeah yeah xkcd yeah -->
+        <p>A website by Eric Wan</p>
+
+
+        <p class="view"><a href="https://github.com/eric4wan">View My GitHub Profile</a></p>
+
+	</header>
+	<section>
+	  <h2>
+<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Taking a Gander into AR</h2>
+
+<p>My friend, Zack Braun, <!-- ZATCH -->approached me one day with an idea. He wanted to create a mask that would provide a heads-up display for firefighters, giving them basic information such as: </p>
+<ul>
+  <li>Time</li>
+  <li>O2 tank level</li>
+  <li>Ambient temp</li>
+  <li>Heart rate</li>
+</ul>
+<p>Sounds good, right? I jumped onboard and we talked about the possibility of harder things like:</p>
+<ul>
+  <li>Location of fellow firefighters</li>
+  <li>Concentrations of various gases</li>
+  <li>Radio communication</li>
+  <li>Temperature scanning</li>
+  <li>Use of LIDAR</li>
+</ul>
+<p>We decided pretty quickly that we wanted to use Raspberry Pi. I can't remember the exact details, but there were definitive reasons to use RPi over Arduino. It was likely hardware/logistically related. We did some googling and found that firefighter AR had been attempted before - but not succesfully, and not frugally. Zack also spoke to a local firefighter friend of his and found out that they had the opportunity to purchase a similar product, but at a whopping 45k/mask.</p>
+<p>Keeping our mask low-cost would be important for a few large reasons.</p>
+<p>Firstly, firefighters shouldn't have to pay out the ass to save lives. And I don't just mean that you shouldn't try to turn a huge profit off of this. There just isn't budget for expensive masks that will be exposed to heat and destruction.</p>
+<p>And, we want to go to InVenture 2016, which brings up a few more reasons. Having a prototype is mandatory (I'm pretty sure) and we don't have 45k lying around. We'll also need a valid reason to create this product - what makes us better than existing solutions? Zack and I threw around some ballpark numbers, and without the actual display itself, we were high-balling numbers like <b>$200/mask</b>.</p>
+<p>Of course, we don't know how much it'll cost to protect everything from the extreme heat. But Zack doesn't think it'll be too costly or limiting in any way, and our equipment costs are pretty low already - that's right, we've already started our first prototype. Even if it jacks up the cost, and then we still have to design a display, I can't see this costing any more than $500. The way I see it, anything under $1000 is viable for the market and if we hit that <b>$200</b> mark, we're golden.</p>
+<p>Implementation-wise, we still have a little ways to go. We've got parts and ideas to handle all of the basic features from the first set of bullet points. To handle the rest will take more time. Location services aren't easy - wifi is unreliable, GPS is too and isn't accurate enough, and god what else would we be using. We will be using I2C and bluetooth to communicate otherwise, but I doubt we'll be able to easily show "Mark is 20m to the west". We can easily do things like have the commander send a "everybody out" signal over radio and have it pop up on the display, but other AR ideas might be harder. LIDAR would be great to use but it's expensive and might take more manpower/knowledge than we could feasibly do. Luckily, we have a long, long time to work on this and I'm sure we'll have plenty of resources.</p> 
+
+
+
