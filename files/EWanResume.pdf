@@ -1,0 +1,946 @@
+%!PS-Adobe-3.0
+%%Title: Microsoft Word - EWanResume
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 3/9/2015 14:38:23
+%%For: eric
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (CutePDF Writer) (2014.108) 0
+%%LanguageLevel: 3
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 0 0 612 792
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+1 dict dup /HWResolution [600 600] put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize Letter
+
+  2 dict dup /PageSize [612 792] put dup /ImagingBBox null put
+setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory None
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 0 792 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 0 0 612 792
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+0 0 0 1 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Times-Bold
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+7500 VM?
+/Times-Bold FontHasEuro not
+{
+/Euro.Times-Bold
+ [500 0 19 -13 492 688 ] 
+<9EF8880DF84CA6037EA701F791C801F7FFC801F928A7018F0AC3F73203F852A6037EA701
+F791C801F7FFC801F928A701F86DF89C15F73A0770068875877D778B08858B749A799308
+7E916E946B8B08358BFB144773FB58086506774E05C1065A076706774E05C7069DFB27E1
+FB0BF7188B088F0AC3F73203F84CA6037EA701F791C801F7FFC801F928A701B88BAA9F91
+8E089C939892908B089F8B8F7D8E7508A606F7450772067A3F5240538B084F8B68EC89F7
+2108F72F06A0C805FB4506BC07F75506A0C805FB690690F71CA9EFC88B088F0AF852A603
+7EA701F791C801F7FFC801F928A701D58BB93A9C5008090E>
+AddEuroGlyph
+/Euro /Times-Bold /Times-Bold-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Times-Bold mF 
+/F0SA6YFFFFFF59 F0 [166.684 0 0 -167 0 0 ] mFS
+F0SA6YFFFFFF59 Ji 
+2242 418 M (Eric Wan)[111 74 46 74 42 167 84  0]xS 
+2932 418 M ( )S 
+
+%%IncludeResource: font Times-Roman
+7500 VM?
+/Times-Roman FontHasEuro not
+{
+/Euro.Times-Roman
+ [500 0 24 -14 493 676 ] 
+<A3F8880DC0EB03F854F743950C0C037DA501F7A0BB01F805BB01F91EA501F869F8911584
+F73A0576068478827E7F8B087F8B70AC438B082A8BFB0D6471FB700863067C5B05BE068A
+7E8B878B7D08750764067D5B05C206A0FB7BF71858E88B088F0AC0EB03F84BF789950C0C
+037DA501F7A0BB01F805BB01F91EA501CA8BACAC998B08988B95809076088F0AC0EB03F8
+54F743950C0C037DA501F7A0BB01F805BB01F91EA501A00692F73705750675FB09417667
+8B083A8B43C182F75E08F7740699BB05FB84069C078B978C978B9708F7950699BB05FBA1
+069AF755D5B3D18B08AB8BDD71A2FB0708090E>
+AddEuroGlyph
+/Euro /Times-Roman /Times-Roman-Copy BuildNewFont
+} if
+F /F1 0 /256 T /Times-Roman mF 
+/F1S63YFFFFFF9C F1 [99.809 0 0 -100 0 0 ] mFS
+F1S63YFFFFFF9C Ji 
+1784 544 M (350 Majestic Cove \225 Milton, GA, 30004 )[50 50 50 25 89 44 28 44 39 28 28 44 25 67 50 50 44 25 35 25 89 28 28 28 50 50 25 25 72 72 25 25
+50 50 50 50 50  0]xS 
+3416 544 M ( )S 
+1828 659 M (678 761 9371 \225 )[50 50 50 25 50 50 50 25 50 50 50 50 25 35  0]xS 
+2463 659 M (eric4wan@gmail.com)[44 33 28 44 50 73 44 51 92 49 78 44 28 28 25 44 50  0]xS 
+3347 659 M ( )S 
+2212 774 M (e)S 
+2256 774 M (ric4wan.github.io)[33 28 44 50 72 44 50 26 49 28 28 50 50 50 25 28  0]xS 
+2962 774 M ( )S 
+/F1S39YFFFFFFC6 F1 [57.887 0 0 -58 0 0 ] mFS
+F1S39YFFFFFFC6 Ji 
+2587 852 M ( )S 
+/F0S74YFFFFFF8B F0 [116.777 0 0 -117 0 0 ] mFS
+F0S74YFFFFFF8B Ji 
+375 974 M (OBJECTIVE)[91 78 59 78 84 77 46 84  0]xS 
+1049 974 M ( )S 
+2775 974 M ( )S 
+3675 974 M ( )S 
+4800 974 M ( )S 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L3 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b/grf4{4 dict `/ShadingType
+4 d/DataSource ~ d/ColorSpace ~ d & E shfill}b
+%%EndResource
+end reinitialize
+: N 375 980 4425 14 rp C 
+ L ; /F1S57YFFFFFFA8 F1 [87.832 0 0 -88 0 0 ] mFS
+F1S57YFFFFFFA8 Ji 
+375 1113 M (To obtain a summer internship to hone software development skills and coding practices. )
+[54 44 22 44 44 24 39 24 44 22 38 22 34 44 67 67 39 29 23 24 44 24 39 29 44 34 44 24 44 22 24 44
+22 44 44 44 39 22 34 44 29 24 63 39 29 39 22 44 39 43 39 24 44 43 67 39 44 24 22 34 44 24 25 24
+34 22 39 44 44 22 39 44 44 24 44 44 22 44 29 38 39 24 24 39 39 34 22  0]xS 
+3519 1113 M ( )S 
+375 1247 M (Developing interest)[64 39 43 39 24 44 44 24 44 44 22 24 44 24 39 29 39 34  0]xS 
+1063 1247 M (s)S 
+1097 1247 M ( )S 
+1119 1247 M (in Security)[24 44 22 49 39 39 43 29 24 25  0]xS 
+1499 1247 M (, Software )[22 22 49 44 29 24 63 39 29 39  0]xS 
+1881 1247 M (Development, and Project Management)[64 39 43 39 24 44 45 67 39 44 24 22 22 39 44 44 21 50 29 44 24 39 39 24 22 78 38 44 39 44 39 67
+39 44  0]xS 
+3272 1247 M (.)S 
+3294 1247 M ( )S 
+F0S74YFFFFFF8B Ji 
+375 1410 M (EDUCATION)[78 84 84 84 84 78 46 91  0]xS 
+1088 1410 M ( )S 
+2775 1410 M ( )S 
+3675 1410 M ( )S 
+4800 1410 M ( )S 
+: N 375 1416 4425 14 rp C 
+ L ; /F0S57YFFFFFFA8 F0 [87.832 0 0 -88 0 0 ] mFS
+F0S57YFFFFFFA8 Ji 
+375 1550 M (GEORGIA INSTITUTE OF TECHNOLOGY)[68 59 68 64 68 33 64 22 33 64 48 59 34 58 63 59 58 22 67 54 22 58 58 64 68 64 67 59 68 67  0]xS 
+2099 1550 M (, College of Computing)[22 21 64 44 24 24 39 43 39 22 44 29 22 63 44 72 49 49 29 24 49  0]xS 
+2959 1550 M ( )S 
+3675 1550 M ( )S 
+4173 1550 M (Atlanta, Georgia)[64 29 24 44 49 29 44 22 22 68 38 44 39 44 24  0]xS 
+4800 1550 M ( )S 
+
+%%IncludeResource: font Times-Italic
+7500 VM?
+/Times-Italic FontHasEuro not
+{
+/Euro.Times-Italic
+ [500 0 23 -7 578 676 ] 
+<A2F8880DDBDB03F7F8A003F88D9D0384A701F79DBB01F802BB01F91CA7018F0ADBDB03F7
+F8A003F88D9D0384A701F79DBB01F802BB01F89CF71301F8BFF93315770680758A89818B
+08848B79947592088F0ADBDB03F7F8A003F88D9D0384A701F79DBB01F802BB01F91CA701
+75916F926D8B08FB0E8B27FB0A5BFB24084606735B05D6068879857A8A79084A06745B05
+DD068A7D8A7C8B7C08FB01B3FB0BF7101EA28BA4919E94089D94948F928B08928B8D858D
+7508A006B0F72205780679674E3D438B08477BD1D11F8BB290B28FA508F76306A2BB05FB
+71068D9D929C8F9D08F77E06A3BB05FB88069FDEC8F72BEC8B08D9B757461F84078F0ADB
+DB03F7F8A003F88D9D0384A701F79DBB01F802BB01F89CF713019D06090E>
+AddEuroGlyph
+/Euro /Times-Italic /Times-Italic-Copy BuildNewFont
+} if
+F /F2 0 /256 T /Times-Italic mF 
+/F2S57YFFFFFFA8 F2 [87.832 0 0 -88 0 0 ] mFS
+F2S57YFFFFFFA8 Ji 
+375 1649 M (Bachelor of Science in Computer Science)[54 44 39 44 39 24 44 34 21 44 24 22 44 39 24 39 44 39 39 22 24 44 21 59 43 64 43 44 24 39 34 22
+44 39 24 39 44 39  0]xS 
+F0S57YFFFFFFA8 Ji 
+1826 1649 M ( )S 
+2775 1649 M ( )S 
+3675 1649 M ( )S 
+F2S57YFFFFFFA8 Ji 
+4091 1649 M (Expected: )[54 39 44 39 39 24 39 44 29  0]xS 
+4463 1649 M (Dec 2016)[64 39 38 22 44 44 43  0]xS 
+4800 1649 M ( )S 
+
+%%IncludeResource: font Symbol
+F /F3 0 /2 F /Symbol mF 
+/F3S57YFFFFFFA8 F3 [87.832 0 0 -88 0 0 ] mFS
+F3S57YFFFFFFA8 Ji 
+375 1755 M <B7>S 
+
+%%IncludeResource: font Helvetica
+7500 VM?
+/Helvetica FontHasEuro not
+{
+/Euro.Helvetica
+ [556 0 24 -19 541 703 ] 
+<A3F8C00DD4E90378DA01F779D301F808D301F904DA01F899F908156CB447AD338B08FB2D
+8B372B7BFB37085806724305D30644075B06724305DA06A0FB36E035F7218B08E08BCDB7
+939208EE077A71405E418B083F8B4CCE84F108F76506A3D305FB8306D207F79C06A3D305
+FBB10692E2B7E8F28B08E08BBE62A45A08090E>
+AddEuroGlyph
+/Euro /Helvetica /Helvetica-Copy BuildNewFont
+} if
+F /F4 0 /256 T /Helvetica mF 
+/F4S57YFFFFFFA8 F4 [87.832 0 0 -88 0 0 ] mFS
+F4S57YFFFFFFA8 Ji 
+415 1755 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 1755 M (GPA:  3.3)[63 49 64 24 22 22 44 22  0]xS 
+878 1755 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 1862 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 1862 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 1862 M (Threads: Information/Internetworks, People)[54 44 29 39 39 44 34 24 22 28 44 29 44 29 67 39 24 24 44 44 25 28 45 24 39 29 44 39 24 63 44 29
+44 34 22 22 49 39 44 44 24  0]xS 
+2063 1862 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 1969 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 1969 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 1969 M (Notable Coursework: Comp Organization/Programing, Data Structures and Algorithms, Junior Project Design )
+[64 44 24 39 44 24 39 21 59 44 44 29 34 39 63 44 29 44 24 21 59 44 67 44 22 64 29 44 39 44 24 39
+39 24 24 44 44 23 50 29 43 44 29 39 67 24 44 44 22 22 63 39 24 39 22 49 24 29 44 39 24 44 29 39
+34 22 39 44 44 21 64 24 44 44 29 24 24 44 67 34 22 22 35 43 44 24 44 29 21 50 29 44 24 39 39 24
+21 64 39 34 24 44 44  0]xS 
+4406 1969 M ( )S 
+/F1S20YFFFFFFDF F1 [32.938 0 0 -33 0 0 ] mFS
+F1S20YFFFFFFDF Ji 
+375 2021 M ( )S 
+F0S74YFFFFFF8B Ji 
+375 2137 M (PERSONAL PROJECTS)[71 78 84 65 91 84 84 78 29 71 84 91 59 78 84 78  0]xS 
+1649 2137 M ( )S 
+2775 2137 M ( )S 
+3675 2137 M ( )S 
+4800 2137 M ( )S 
+: N 375 2143 4425 14 rp C 
+ L ; F0S57YFFFFFFA8 Ji 
+375 2278 M (Firefighter AR Mask )[54 24 39 39 30 24 43 49 29 39 39 21 63 64 22 83 44 34 47  0]xS 
+1184 2278 M ( )S 
+2775 2278 M ( )S 
+3675 2278 M ( )S 
+3923 2278 M (January 2015 )[44 44 49 49 43 39 44 22 44 43 44 44  0]xS 
+4454 2278 M <96>S 
+4498 2278 M ( )S 
+4519 2278 M (Present)[54 39 39 34 38 49  0]xS 
+
+%%IncludeResource: font Times-BoldItalic
+7500 VM?
+/Times-BoldItalic FontHasEuro not
+{
+/Euro.Times-BoldItalic
+ [500 0 9 -20 542 686 ] 
+<94F8880DD6F70503F815A503F86FAB037DA801F78FC801F805C801F922A8018F0AD6F705
+03F815A503F86FAB037DA801F78FC801F805C801F898F72401F8A9F942157306867E857E
+7F8B088F0AD6F70503F815A503F86FAB037DA801F78FC801F805C801F922A801778B79A2
+428B08288BFB07285BFB2E084B06734E05D206877C8271897B085306724E05D8068A7E8A
+7C8B7B082CACFB12F72F1EC18BA2A2AB8B088F0AD6F70503F815A503F86FAB038C7601F7
+8FC801F805C801F922A801978B8B788C8108A5068F0AD6F70503F815A503F86FAB0394F7
+1F01F78FC801F805C801F922A801B4F73C056B068F0AD6F70503F815A503F86FAB037DA8
+01F78FC801F805C801F922A8017E64552D458B084A6DB3D41F8BAD92B497BB08F73606A3
+C805FB43068D9892AA909808F74C06A4C805FB57068D9092A295A908A3D4B2E8C48B08B6
+BA6A301F8F0AD6F70503F815A503F86FAB037DA801F78FC801F805C801F898F724017D07
+AB06090E>
+AddEuroGlyph
+/Euro /Times-BoldItalic /Times-BoldItalic-Copy BuildNewFont
+} if
+F /F5 0 /256 T /Times-BoldItalic mF 
+/F5S57YFFFFFFA8 F5 [87.832 0 0 -88 0 0 ] mFS
+F5S57YFFFFFFA8 Ji 
+4800 2278 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 2382 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 2382 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 2382 M (Create low)[59 29 39 39 24 39 22 24 44  0]xS 
+907 2382 M (-)S 
+935 2382 M (cost mask providing firefighters with important environment information )
+[39 44 34 24 23 67 39 34 44 22 44 29 44 43 24 45 24 44 44 22 29 24 29 39 29 24 44 44 24 39 29 34
+22 63 24 24 44 22 25 67 44 44 29 24 40 44 24 22 39 44 43 24 29 44 44 67 39 44 24 22 24 44 29 44
+30 67 39 25 24 44 44  0]xS 
+3517 2382 M (in real)[24 44 22 29 39 39  0]xS 
+3738 2382 M (-)S 
+3766 2382 M (time using Raspberry Pi)[25 25 67 39 22 44 34 24 44 44 22 59 39 34 44 43 39 29 29 42 23 50  0]xS 
+F0S57YFFFFFFA8 Ji 
+4610 2382 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 2490 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 2490 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 2490 M (Develop software architecture, GUI, as well as document workload and management in preparation for InVenture 2016)
+[64 39 43 39 24 44 44 22 34 44 29 24 63 39 29 39 22 39 29 39 44 24 24 39 39 24 44 29 39 22 22 63
+64 28 22 22 39 34 22 63 39 24 24 22 39 34 22 44 44 39 44 67 39 44 24 22 63 44 29 44 24 44 39 44
+22 39 44 44 22 67 39 44 39 44 39 67 39 44 24 22 24 44 22 44 29 39 44 39 29 39 24 24 44 44 22 29
+44 29 22 28 44 64 39 44 24 44 29 38 21 44 44 44  0]xS 
+F0S57YFFFFFFA8 Ji 
+4707 2490 M ( )S 
+375 2626 M (Eric4wan.Github.Io )[59 39 24 39 43 64 44 49 22 68 24 29 48 49 49 22 34 44  0]xS 
+1146 2626 M ( )S 
+2775 2626 M ( )S 
+3675 2626 M ( )S 
+3923 2626 M (January 2015 )[44 44 49 49 43 39 44 22 44 43 44 44  0]xS 
+4454 2626 M <96>S 
+4498 2626 M ( )S 
+4519 2626 M (Present)[54 39 39 34 38 49  0]xS 
+F5S57YFFFFFFA8 Ji 
+4800 2626 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 2730 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 2730 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 2730 M (Created)[59 29 39 39 24 39  0]xS 
+798 2730 M ( )S 
+820 2730 M (website to practice a)[63 39 44 34 24 24 39 22 24 44 22 44 29 39 39 24 24 39 39 22  0]xS 
+1536 2730 M (nd demonstrate front)[44 44 22 44 39 67 44 44 34 24 29 39 24 39 22 29 29 44 44  0]xS 
+2265 2730 M (-)S 
+2293 2730 M (end )[39 44 44  0]xS 
+2442 2730 M (development )[44 39 43 39 24 44 44 67 39 44 24  0]xS 
+2915 2730 M (skills through Git)[34 44 25 24 24 34 22 24 44 29 44 44 44 44 22 64 24  0]xS 
+F0S57YFFFFFFA8 Ji 
+3529 2730 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 2838 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 2838 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 2838 M (Provides convenient location to hold basic contact information, resume, and details on projects in development)
+[50 29 44 43 24 44 39 34 22 39 43 44 43 39 44 24 39 44 24 22 24 44 39 39 24 24 44 44 22 24 44 22
+44 44 24 44 22 44 39 34 24 39 22 39 43 44 24 39 39 24 22 24 44 29 44 29 68 39 24 24 44 44 22 22
+29 39 34 44 67 39 22 22 39 44 44 22 44 39 24 39 24 24 34 22 44 44 21 44 29 44 24 39 39 24 34 22
+24 44 22 44 39 43 39 24 44 44 67 39 44  0]xS 
+4408 2838 M ( )S 
+F0S57YFFFFFFA8 Ji 
+4431 2838 M ( )S 
+F0S74YFFFFFF8B Ji 
+375 3000 M (EXPERIENCE)[78 84 71 78 84 46 78 84 84  0]xS 
+1140 3000 M ( )S 
+2775 3000 M ( )S 
+3675 3000 M ( )S 
+4800 3000 M ( )S 
+: N 375 3006 4425 14 rp C 
+ L ; F0S57YFFFFFFA8 Ji 
+375 3141 M (OpenSpan)[68 49 39 49 49 48 44  0]xS 
+769 3141 M ( )S 
+975 3141 M ( )S 
+2775 3141 M ( )S 
+3675 3141 M ( )S 
+4282 3141 M (Summer 2014)[49 49 72 72 39 39 22 44 44 44  0]xS 
+4800 3141 M ( )S 
+F5S57YFFFFFFA8 Ji 
+375 3239 M (Technical Analyst Intern)[54 39 39 48 49 24 39 44 24 22 59 48 44 24 39 34 24 22 34 49 24 39 34  0]xS 
+1279 3239 M ( )S 
+2775 3239 M ( )S 
+3675 3239 M ( )S 
+F2S57YFFFFFFA8 Ji 
+4426 3239 M (Alpharetta)[54 24 44 44 44 34 39 24 24  0]xS 
+4800 3239 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 3346 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 3346 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 3346 M (Developed automation solutions for )[64 39 43 39 24 44 44 39 44 22 39 44 24 44 67 39 24 24 44 44 22 34 44 24 44 24 24 44 44 34 22 29
+44 29  0]xS 
+1804 3346 M (project to increase speeds of various call)[44 29 44 24 39 39 24 22 24 44 22 24 44 39 29 39 39 34 39 22 33 43 39 39 44 34 22 44 29 22 43 39
+29 24 44 44 34 22 39 39 24  0]xS 
+3222 3346 M (-)S 
+3250 3346 M (center agent processes by up to 600%, )[39 39 44 24 39 29 22 40 44 39 44 24 22 44 29 44 39 39 34 34 39 34 21 44 42 22 44 44 22 24 44 22
+44 44 44 73 22  0]xS 
+525 3447 M (resulting in a 15% increase in overall daily efficiency)[29 39 34 44 24 24 24 44 44 22 24 44 22 39 22 44 44 73 22 24 44 39 29 39 39 34 39 22 23 44 22 44
+43 39 29 39 24 24 22 44 39 24 25 42 22 39 29 30 24 39 24 39 44 40  0]xS 
+F2S57YFFFFFFA8 Ji 
+2396 3447 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 3554 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 3554 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 3554 M (Interacted with customers/users on)[28 44 24 39 29 39 39 24 39 44 22 63 24 24 44 22 39 44 34 24 45 67 39 29 34 24 44 35 39 29 34 22
+44  0]xS 
+1743 3554 M (-)S 
+1771 3554 M (site to develop and tailor business req)[34 24 24 39 22 24 44 22 44 39 43 39 24 44 44 22 39 44 44 22 24 39 24 24 44 29 22 44 44 34 24 44
+39 34 34 22 29 39  0]xS 
+3089 3554 M (uirements for multiple projects)[44 24 29 39 67 39 44 24 34 22 29 44 29 22 67 44 24 25 24 44 24 39 22 44 29 44 24 39 39 24  0]xS 
+F2S57YFFFFFFA8 Ji 
+4169 3554 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 3660 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 3660 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 3660 M (Managed workl)[78 39 44 39 44 39 43 22 63 44 29 44  0]xS 
+1077 3660 M (oad for team to prioritize and categorize high)[44 39 44 22 29 44 29 22 24 39 39 67 22 24 44 22 44 29 24 44 29 24 24 24 39 39 22 39 44 44 22 39
+39 24 39 44 44 29 24 39 39 22 43 24 44  0]xS 
+2659 3660 M (-)S 
+2687 3660 M (priority/visibility tasks and distribute properly to maximize )
+[44 29 24 44 29 25 25 43 25 43 24 34 24 44 25 24 24 25 43 22 24 39 34 44 34 22 40 44 44 22 44 24
+34 24 29 24 44 44 24 39 22 44 29 44 44 39 29 24 42 22 24 44 23 67 39 45 24 68 24 39 39  0]xS 
+525 3761 M (working efficiency given limited time/resources and team strengths)
+[63 44 29 44 24 44 44 22 39 29 29 24 39 24 39 44 39 42 22 44 25 43 39 44 22 24 25 68 24 24 39 44
+22 24 25 67 39 24 29 39 34 44 44 29 39 39 34 22 39 44 44 22 24 39 39 68 22 34 24 29 39 44 44 24
+44  0]xS 
+F2S57YFFFFFFA8 Ji 
+2885 3761 M ( )S 
+F1S20YFFFFFFDF Ji 
+525 3813 M ( )S 
+F0S74YFFFFFF8B Ji 
+375 3929 M (ACTIVITES         )[84 84 78 46 84 46 78 78 65 29 29 29 29 29 29 29 29  0]xS 
+1279 3929 M ( )S 
+2775 3929 M ( )S 
+3675 3929 M ( )S 
+4800 3929 M ( )S 
+: N 375 3935 4425 14 rp C 
+ L ; F0S57YFFFFFFA8 Ji 
+375 4070 M (Project Manager )[54 39 44 29 39 39 29 21 83 44 49 43 44 39 39  0]xS 
+1032 4070 M <96>S 
+1076 4070 M ( )S 
+1097 4070 M (Junior Project Design )[44 49 49 24 44 38 21 54 39 44 29 39 39 29 21 64 39 34 24 44 49  0]xS 
+1935 4070 M ( )S 
+2775 4070 M ( )S 
+3675 4070 M ( )S 
+3923 4070 M (January 2015 )[44 44 49 49 43 39 44 22 44 43 44 44  0]xS 
+4454 4070 M <96>S 
+4498 4070 M ( )S 
+4519 4070 M (Present)[54 39 39 34 38 49  0]xS 
+F5S57YFFFFFFA8 Ji 
+4800 4070 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 4174 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 4174 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 4174 M (Manager)[78 39 44 39 44 39  0]xS 
+837 4174 M ( )S 
+859 4174 M (of group )[44 29 21 44 29 44 44 44  0]xS 
+1179 4174 M (documenting and developing self)[44 44 39 44 67 39 44 24 24 44 44 22 39 44 44 21 44 39 43 39 24 44 44 24 44 44 22 34 39 24  0]xS 
+2343 4174 M (-)S 
+2371 4174 M (designed web app, targeted to increase web browser )[44 39 34 24 45 44 39 44 22 63 39 44 22 38 44 44 22 22 24 39 29 44 39 24 39 44 22 24 44 22 24 44
+39 28 39 39 34 39 22 63 39 44 22 44 29 44 63 34 39 29  0]xS 
+4218 4174 M (productivity)[44 29 43 44 44 39 24 24 43 25 25  0]xS 
+4644 4174 M ( )S 
+4666 4174 M (by )[45 42  0]xS 
+525 4275 M (providing personal credentials bank with customizable single)[44 29 44 43 24 44 24 44 44 22 44 39 29 34 44 44 39 24 22 39 29 39 44 39 44 24 24 38 24 34 22 44
+39 44 44 22 63 24 24 44 22 39 44 34 24 44 67 24 39 39 44 24 39 22 34 25 44 44 24  0]xS 
+2669 4275 M (-)S 
+2697 4275 M (sign)[34 24 44  0]xS 
+2844 4275 M (-)S 
+2872 4275 M (on to provide intuitive and convenient user experience)[44 44 22 24 44 22 44 29 44 43 24 44 39 22 24 44 24 44 25 24 24 43 39 22 39 44 44 22 39 44 44 43
+39 44 24 39 44 24 22 44 34 39 29 22 39 44 43 39 29 24 39 44 39  0]xS 
+F0S57YFFFFFFA8 Ji 
+4776 4275 M ( )S 
+375 4411 M (Grey Hat)[68 39 39 44 22 68 44  0]xS 
+727 4411 M ( )S 
+975 4411 M ( )S 
+997 4411 M ( )S 
+2775 4411 M ( )S 
+3675 4411 M ( )S 
+3923 4411 M (January 2015 )[44 44 49 49 43 39 44 22 44 43 44 44  0]xS 
+4454 4411 M <96>S 
+4498 4411 M ( )S 
+4519 4411 M (Present)[54 39 39 34 38 49  0]xS 
+F5S57YFFFFFFA8 Ji 
+4800 4411 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 4517 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 4517 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 4517 M (Member of Computer Security club at Georgia Tech; practices and learns CTF exercises)
+[78 39 67 44 39 29 22 44 29 22 59 44 67 44 44 24 39 29 22 49 39 39 44 29 24 25 42 22 39 24 44 44
+22 39 24 22 64 39 44 29 44 24 39 22 54 38 39 44 24 22 44 29 39 38 24 24 39 39 34 22 39 44 44 22
+24 39 39 29 44 34 22 58 54 47 22 39 44 39 29 39 24 34 39  0]xS 
+F0S57YFFFFFFA8 Ji 
+3621 4517 M ( )S 
+375 4652 M (Project Manager )[54 39 44 29 39 39 29 21 83 44 49 43 44 39 39  0]xS 
+1032 4652 M <96>S 
+1076 4652 M ( )S 
+1098 4652 M (Objects and Design)[67 49 29 39 39 29 33 22 44 49 49 21 64 39 34 24 44  0]xS 
+1821 4652 M ( )S 
+2775 4652 M (                                         )[22 22 22 22 22 22 22 22 22 22 22 21 22 22 22 22 22 22 22 21 22 22 22 22 22 22 22 21 22 22 22 22
+22 22 22 21 22 22 22 22  0]xS 
+3672 4652 M (August 2014 )[64 48 44 49 34 29 22 44 44 44 43  0]xS 
+4159 4652 M <96>S 
+4203 4652 M ( )S 
+4224 4652 M (December 2014)[64 39 39 39 72 49 39 39 22 43 44 44  0]xS 
+F5S57YFFFFFFA8 Ji 
+4800 4652 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 4757 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 4757 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 4757 M (M)S 
+603 4757 M (anaged team that developed a Java )[39 44 39 44 39 43 22 24 39 39 67 22 24 44 39 24 22 44 39 43 39 24 44 44 39 44 22 39 21 35 39 43
+39  0]xS 
+1837 4757 M (application in \223Objects and Design\224 course; responsible for providing direction to )
+[39 44 44 24 24 39 39 24 24 44 44 22 24 44 22 38 64 44 24 38 39 24 34 22 39 44 44 22 63 39 34 24
+44 44 39 22 39 43 44 29 34 39 24 22 29 39 34 43 44 44 34 24 44 24 39 22 29 44 29 22 44 29 44 43
+24 44 24 44 44 22 44 24 29 39 39 24 24 44 44 22 24 44  0]xS 
+525 4858 M (team and maintaining productivity and order)[24 39 39 67 22 39 44 44 22 67 39 24 44 24 40 24 44 24 44 44 22 44 29 44 44 44 38 24 24 44 24 25
+43 22 39 44 44 22 44 29 44 39  0]xS 
+F0S57YFFFFFFA8 Ji 
+2087 4858 M ( )S 
+375 4994 M (Student Hall Council Representative )[49 29 49 49 39 49 29 22 67 44 24 24 22 64 44 48 49 39 24 24 22 64 38 49 38 39 34 39 49 29 44 29
+24 44 39  0]xS 
+1765 4994 M ( )S 
+2775 4994 M ( )S 
+3675 4994 M ( )S 
+3881 4994 M (August 2013 )[64 49 43 49 34 29 22 44 44 43 44  0]xS 
+4368 4994 M <96>S 
+4412 4994 M ( )S 
+4433 4994 M (May 2014)[83 44 44 22 43 44 44  0]xS 
+F5S57YFFFFFFA8 Ji 
+4800 4994 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 5099 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 5099 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 5099 M (Represent)[59 39 44 29 39 34 39 44  0]xS 
+876 5099 M (ed)[38  0]xS 
+958 5099 M ( )S 
+980 5099 M (26 fellow residents in student legislative body to mana)[44 44 22 29 39 24 24 44 63 22 29 39 34 24 44 38 44 24 34 22 24 44 22 34 24 44 44 39 44 24 22 24
+39 44 24 34 24 39 24 24 43 39 22 44 44 44 43 22 24 44 23 67 39 44  0]xS 
+2889 5099 M (ge)[44  0]xS 
+2972 5099 M ( )S 
+2994 5099 M (and allocate)[39 44 44 22 39 24 24 44 39 39 24  0]xS 
+3415 5099 M ( )S 
+3437 5099 M (funds for hall activities.)[29 43 43 44 34 22 29 44 29 22 44 39 24 24 22 39 39 24 24 43 24 25 24 39 34  0]xS 
+4266 5099 M ( )S 
+F0S74YFFFFFF8B Ji 
+375 5261 M (SKILLS         )[65 91 46 78 78 65 29 29 29 29 29 29 29 29  0]xS 
+1059 5261 M ( )S 
+2775 5261 M ( )S 
+3675 5261 M ( )S 
+/F0S67YFFFFFF98 F0 [103.801 0 0 -104 0 0 ] mFS
+F0S67YFFFFFF98 Ji 
+4800 5261 M ( )S 
+: N 375 5267 4425 14 rp C 
+ L ; F0S57YFFFFFFA8 Ji 
+375 5402 M (Computer Languages)[64 44 72 49 49 29 39 39 21 59 44 48 44 49 44 43 39  0]xS 
+1185 5402 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 5506 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 5506 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 5506 M (Experience with)[54 44 44 39 29 24 39 44 39 38 22 63 24 24  0]xS 
+1096 5506 M (: Java)[24 22 35 39 43  0]xS 
+1298 5506 M ( )S 
+1320 5506 M (\(proficient\))[29 44 29 44 29 24 39 24 39 44 24  0]xS 
+1718 5506 M (, )[22  0]xS 
+1762 5506 M (C, Assembly, )[59 22 21 64 34 34 39 67 44 25 42 22  0]xS 
+2257 5506 M (HTML)[64 54 78  0]xS 
+2505 5506 M ( )S 
+2528 5506 M (5)S 
+2572 5506 M (, CSS)[22 22 59 48  0]xS 
+2772 5506 M ( )S 
+2794 5506 M (3, JavaScript, Ruby)[44 22 21 34 39 43 39 49 39 29 24 44 24 22 22 59 44 44  0]xS 
+F0S57YFFFFFFA8 Ji 
+3478 5506 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 5613 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 5613 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 5613 M (Exposure: Python)[54 44 44 44 34 44 29 39 24 21 50 42 24 44 44  0]xS 
+1150 5613 M (, Lua)[22 22 52 44  0]xS 
+F0S57YFFFFFFA8 Ji 
+1329 5613 M ( )S 
+/F0S20YFFFFFFDF F0 [32.938 0 0 -33 0 0 ] mFS
+F0S20YFFFFFFDF Ji 
+375 5666 M ( )S 
+F0S57YFFFFFFA8 Ji 
+375 5755 M (Languages)[59 44 49 43 49 44 44 39  0]xS 
+779 5755 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 5859 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 5859 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 5859 M (Conversationally fluent: Mandarin, French)[59 44 44 43 39 29 34 39 24 24 44 44 39 24 25 42 22 29 24 44 39 44 24 24 22 78 40 44 44 39 29 24
+44 22 22 47 29 39 44 39  0]xS 
+F0S57YFFFFFFA8 Ji 
+2022 5859 M ( )S 
+F0S20YFFFFFFDF Ji 
+375 5912 M ( )S 
+F0S57YFFFFFFA8 Ji 
+375 6000 M (Other)[68 29 49 39  0]xS 
+599 6000 M ( )S 
+F3S57YFFFFFFA8 Ji 
+375 6105 M <B7>S 
+F4S57YFFFFFFA8 Ji 
+415 6105 M ( )S 
+F1S57YFFFFFFA8 Ji 
+525 6105 M (Agile/Scrum, SVN, Git, )[64 44 24 24 39 24 49 39 29 44 67 22 22 49 63 64 22 21 64 24 24 22  0]xS 
+1391 6105 M (Linux, )[52 24 45 44 44 22  0]xS 
+1644 6105 M (Technical Communication)[54 38 39 44 44 24 39 39 24 21 59 44 67 67 44 44 24 39 39 24 24 45  0]xS 
+2574 6105 M (/Writing)[24 83 29 24 24 24 44  0]xS 
+2870 6105 M (, )[22  0]xS 
+2914 6105 M (Piano, Violin)[50 24 39 43 44 22 21 64 24 44 24 24  0]xS 
+3381 6105 M ( )S 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 0 0 612 792
+%%DocumentNeededResources: 
+%%+ font Times-Bold
+%%+ font Times-Roman
+%%+ font Times-Italic
+%%+ font Symbol
+%%+ font Helvetica
+%%+ font Times-BoldItalic
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L3 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 1
+(%%[LastPage]%%) = 
+%%EOF
+
