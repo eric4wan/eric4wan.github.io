@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>AR Firefighter Mask</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Eric&#39;s Interblagosphere</h1> <!-- yeah yeah xkcd yeah -->
+        <p>A website by Eric Wan</p>
+
+
+        <p class="view"><a href="https://github.com/eric4wan">View My GitHub Profile</a></p>
+
+	</header>
+	<section>
+	  <h2>
+<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Double Integrals??</h2>
+
+<p>So perhaps the most useful feature would be positional information of each firefighter. Each person could see exactly who was where, and how far away, and the Commander, outside on his laptop, would also have a better idea of who needs to be where.</p>
+<p>How can we accomplish this? Gozio, a startup in Atlanta, has a product that can provide map directions for navigating INSIDE a hospital - this would require pretty accurate readings. A quick bit of research on their <a href="www.goziohealth.com/gozio-fusion">website</a> revealed that they uniquely combine several types of signals - including wifi, cellular, magnetic, and bluetooth. This gave us some starting ideas.</p>
+<p>Wifi is out. It can't penetrate all walls, is patchy as all hell, and would require a hotspot to come with the firefighters. Cellular is out. It's simply not logistically viable to have all of the masks be transmitting through cellular, which isn't always reliable either. Magnetic is out. We'd need existing magnets set up that we have pre-mapped. So that left us with bluetooth. It's cheap, can transmit quite far if needed, and shouldn't be that hard!</p>
+<p>That leaves us with the task of calculating position. Bluetooth triangulation would not be accurate. So we looked into using acclerometer information. Most everyone agrees that it's just not possible - even if you use Kalman's filter to reduce noise, you still are left with doubly-integrating acceleration to determine position. The instruments would have to be PERFECTLY accurate, and still there would be plenty of error. As time continues, your inaccuracy increases, and after one minute you could have <a href="www.chrobotics.com/library/accel-position-velocity">over 6000 meters</a> of error. So that's out.</p>
+<p>I looked into GPS briefly. Adafruit sells $45 GPS units for RPi, which isn't too expensive! However, Zack and I are in agreement - buying this would be too easy. It wouldn't be Georgia Tech, it wouldn't be InVenture, and it wouldn't be us. We don't just buy our way through our problems</p>
+<p>Luckily, a co-worker of mine at ADP gave me a great suggestion - RFID! Wait a minute, RFID? Supposedly, he was able to achieve CENTIMETER accuracy with RFID chips. I'm still waiting on additional information about it, but hopefully we can integrate it into our system.</p>
+	</h2>
+    </section>
+  </body>
+</html>
