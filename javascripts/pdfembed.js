@@ -1,6 +1,6 @@
 'use strict';
 
-PDFJS.getDocument('files/EWanResume.pdf').then(function(pdf) {
+PDFJS.getDocument('EWanResume.pdf').then(function(pdf) {
   pdf.getPage(1).then(function(page0 {
     var scale = 1.5;
     var viewport = page.getViewport(scale);
