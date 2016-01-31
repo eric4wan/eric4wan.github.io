@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+.caption {
+  font:8px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.bigger {
+  font: 17px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
