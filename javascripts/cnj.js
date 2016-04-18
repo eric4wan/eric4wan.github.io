@@ -1,4 +1,4 @@
-c3.generate({
+var c0 = c3.generate({
     bindto: '#chart',
     data: {
       columns: [
