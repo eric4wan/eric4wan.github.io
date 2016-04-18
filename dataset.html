@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>The Most Beautifulest Maps Around</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Eric&#39;s Interblagosphere</h1> <!-- yeah yeah xkcd yeah -->
+        <p>A website by Eric Wan</p>
+
+        <p class="view"><a href="https://github.com/eric4wan">View My GitHub Profile</a></p>
+
+	</header>
+	<section>
+	  <h2>
+<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>College years are the best year of your life</h2>
+<h3>To destroy your liver</h3>
+
+<h4><i>Click any image to view its full size</i></h4>
+
+<p>The first dataset I found was the 2011 median annual salary of people in America, 10 years after they graduated from an accredited American university. This data is provided by the Department of Education's website, <a href="https://collegescorecard.ed.gov/">College Scorecard</a>, which I uncovered from visiting <a href="https://www.reddit.com/r/datasets/comments/3kxv4q/data_this_is_the_most_detailed_data_yet_on_what/">/r/datasets</a>.</p>
+<p>The entire dataset includes an incredible range of data - from percentage of students from each ethnic group that defaulted on student loans 3 years after graduation, to the number of students coming from households in the upper 10th percentile of annual income. It took a SIGNIFICANT amount of filtering to bring the set down to the data I was interested in, but it was well worth it. There are clearly a LARGE number of points, and I attempted to use a color scheme that would maintain legibility, but at this point, without randomly removing items, it would be impossible to further shrink the set.</p>
+
+<p>The second dataset was taken from <a href="http://www.numbeo.com">Numbeo</a>, a website that visualizes and lists the current CPI (consumer price index) - cost of living - and details out many components that presumably are factored into the calculation. Prices of things like public transportation, rent, and <a href="http://www.numbeo.com/cost-of-living/prices_by_city.jsp?displayCurrency=USD&itemId=15">0.5 liters of domestic beer</a>.</p>
+<p>I represented this dataset in larger circles, despite the fact that the data was organized by city - this was because almost all items followed a regional trend, and this was the underlying data that I treated like the independent variable - what I expected would have an effect on the median salary. Therefore, it made the most sense to me to be able to see the salaries <i>on top</i> of the cost of beer.</p>
+
+<p>There were many reasons why I chose to do beer instead of the full CPI. For starters, CPI of the city one graduates from only affects one's salary if one stays <i>in the city they graduated from</i>. The salaries were tied only to the school you graduated from, and were georeferenced based on the city the school is located in, while the cost of beer was directly tied to the city.</p>
+<p>The second most obvious reason was that beer was infinitely more interesting than overall cost of living - my somewhat unsubtly implied hypothesis was that cheap beer would have a negative effect on one's salary down the road. I do not plan on doing any null hypothesis testing, but by just looking at this one map - there may be <i>some</i> correlation.</p>
+
+
+<a href="full.png"><img src="full.png" alt"full dataset" height="420" width="894"></a>
+
+<p>Below, I've split each dataset into the four even subsets - the salaries didn't play nicely with quartlies, so even distribution would have to do - and matched them up correspondingly. You can see that the dark green hexagons represent high concentrations of salaries in the specified range, and darker red circles represent a lower price of beer. Thus, an area of light green <i>AND</i> dark red meant there was both cheap booze and low income from that city's colleges.</p>
+<a href="first.png"><img src="first.png" alt="first quarter" height="202" width="430"></a>
+<a href="second.png"><img src="second.png" alt="second quarter" height="202" width="430"></a>
+<a href="third.png"><img src="third.png" alt="third quarter" height="202" width="430"></a>
+<a href="fourth.png"><img src="fourth.png" alt="fourth quarter" height="202" width="430"></a>
+<p>Unfortunately, it becomes fairly obvious that there isn't a strong enough correlation. Perhaps in the very first, one can see some overlap, but as the data becomes more sparse in the higher income areas, one loses all hope in their null hypothesis.</p>
+
+<p>This mapping could have potentially provided some very interesting information about one's success in life based on their actions in college. However, as this is neither comprehensive nor detailed, it fails to do so - the data suggests that the price of beer in one's college's city is not a large enough factor to influence one's life to the extent of any serious salary changes.</p>
+<p>However, this mapping does achieve my main goal - entertainment. I definitely got a kick out of this assignment, and each time I applied a new filter or query, I was excited to see each result. My roommates thought it was a hilarious pairing of datasets. We all predicted that it wouldn't be quite extensive or influential enough to amount to any statistically significant results as well. </p>
+
+<p>The images of the maps were constructed (by yours truly) using <a href="https://cartodb.com/">CartoDB</a> - which provided an excellent and extensive library of functions to georeference my data and provide additional filtering.</p>
+
+<p class="caption">This work was done as part of a class assignment for Georgia Tech's CS4464/6465 Fall 2016 (https://github.com/jacobeisenstein/gt-compj-class/). The opinions expressed here, if any, are solely those of the students working on this assignment and not of the Instructor or Georgia Tech.</p>
+
+	</h2>
+      </section>
+  </body>
+</html>
