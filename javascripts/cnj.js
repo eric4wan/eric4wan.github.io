@@ -16,7 +16,7 @@ var c0 = c3.generate({
     }
 });
 
-c3.generate({
+var c1= c3.generate({
     bindto: '#c1',
     data: {
       columns: [
