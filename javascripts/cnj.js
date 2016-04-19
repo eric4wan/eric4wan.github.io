@@ -27,7 +27,7 @@ function graphs(d) {
 
   arrFiddy = d[1];
   for (var j = 2; j < 51; j++) {
-      print arrFiddy;
+      console.log(arrFiddy);
       arrFiddy.SumArray(d[j]);
   }
   arrFiddy = arrFiddy.DivFiddy();
