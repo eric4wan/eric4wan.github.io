@@ -46,6 +46,9 @@ function graphs(d) {
       x: {
         type: 'category',
         categories: ["Analytical", "Confident", "Tentative", "Openness", "Conscientiousness", "Extraversion", "Agreeableness", "Emotional Range"]
+      },
+      y: {
+        max: 0.7
       }
     },
     legend: {
