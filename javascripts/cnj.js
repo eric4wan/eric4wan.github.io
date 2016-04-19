@@ -27,7 +27,7 @@ function graphs(d) {
 
   bindStr = '#c';
 
-  $('#graphs').append("<div id='" + "0" + "|" + "0" + "'></div>");
+  $('#graphs').append("<div id='" + "0" + "-" + "0" + "'></div>");
 
   arrFiddy = d[1];
   for (var j = 2; j < 51; j++) {
@@ -36,7 +36,7 @@ function graphs(d) {
   arrFiddy = arrFiddy.DivFiddy();
 
   c3.generate({
-    bindto: bindStr + 0 + "|" + 0,
+    bindto: bindStr + 0 + "-" + 0,
     data: {
       columns: [
         ['data'].concat(arrFiddy)
