@@ -1,5 +1,6 @@
 Array.prototype.SumArray = function (arr) {
     var sum = [];
+    console.log(this, arr);
     if (arr != null && this.length == arr.length) {
         for (var i = 0; i < arr.length; i++) {
             sum.push(parseFloat(this[i]) + parseFloat(arr[i]));
@@ -27,7 +28,6 @@ function graphs(d) {
 
   arrFiddy = d[1];
   for (var j = 2; j < 51; j++) {
-      console.log(arrFiddy);
       arrFiddy.SumArray(d[j]);
   }
   arrFiddy = arrFiddy.DivFiddy();
