@@ -36,7 +36,7 @@ function graphs(d) {
   arrFiddy = arrFiddy.DivFiddy();
 
   c3.generate({
-    bindto: bindStr + 0.toString() + "|" + 0.toString(),
+    bindto: bindStr + 0 + "|" + 0,
     data: {
       columns: [
         ['data'].concat(arrFiddy)
