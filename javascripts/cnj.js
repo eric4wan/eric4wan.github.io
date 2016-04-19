@@ -26,10 +26,11 @@ Papa.parse("http://eric4wan.github.io/output.csv", {
 function graphs(d) {
 
   arrFiddy = d[1];
-  for (var j = 1; j < 51; j++) {
-       arrFiddy.SumArray(d[j]);
-     }
-     arrFiddy = arrFiddy.DivFiddy();
+  for (var j = 2; j < 51; j++) {
+      print arrFiddy;
+      arrFiddy.SumArray(d[j]);
+  }
+  arrFiddy = arrFiddy.DivFiddy();
 
   c3.generate({
     bindto: '#c0',
