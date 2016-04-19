@@ -37,7 +37,7 @@ function graphs(d) {
   resStr = bindStr + 0 + "-" + 0;
   console.log(resStr);
   c3.generate({
-    bindto: resStr,
+    bindto: '#c0',
     data: {
       columns: [
         ['data'].concat(arrFiddy)
