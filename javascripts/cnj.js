@@ -1,8 +1,6 @@
 Array.prototype.SumArray = function (arr) {
     var sum = [];
-    console.log(this, arr);
     if (arr != null && this.length == arr.length) {
-      console.log("ASD");
         for (var i = 0; i < arr.length; i++) {
             sum.push(parseFloat(this[i]) + parseFloat(arr[i]));
         }
@@ -27,14 +25,18 @@ Papa.parse("http://eric4wan.github.io/output.csv", {
 
 function graphs(d) {
 
+  bindStr = '#c';
+
+  $('#graphs').append("<div id='" + "0" + "|" + "0" + "'></div>");
+
   arrFiddy = d[1];
   for (var j = 2; j < 51; j++) {
-      arrFiddy.SumArray(d[j]);
+      arrFiddy = arrFiddy.SumArray(d[j]);
   }
-  // arrFiddy = arrFiddy.DivFiddy();
+  arrFiddy = arrFiddy.DivFiddy();
 
   c3.generate({
-    bindto: '#c0',
+    bindto: bindStr + 0.toString() + "|" + 0.toString(),
     data: {
       columns: [
         ['data'].concat(arrFiddy)
