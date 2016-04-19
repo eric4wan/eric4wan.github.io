@@ -32,6 +32,27 @@ Papa.parse("http://eric4wan.github.io/output.csv", {
 });
 
 function graphs(d) {
+
+  c3.generate({
+    bindto: '#other',
+    data: {
+      columns: [
+        ['IBM', 0.215, 0.522, 0.0, 0.525, 0.929, 0.787, 0.813, 0.119],
+        ['BBC', 0.483, 0.308, 0.214, 0.79, 0.418, 0.581, 0.263, 0.1],
+        ['BF', 0.136, 0.217, 0.187, 0.554, 0.682, 0.662, 0.618, 0.324]
+      ]
+    },
+    axis: {
+      x: {
+        type: 'category',
+        categories: ["Analytical", "Confident", "Tentative", "Openness", "Conscientiousness", "Extraversion", "Agreeableness", "Emotional Range"]
+      }
+    },
+    legend: {
+      position: 'right'
+    }
+  });
+
   var allCats = [];
   var bindStr = '#c';
 
@@ -68,29 +89,29 @@ function graphs(d) {
     bindto: '#all',
     data: {
       columns: [
-        ['d0'].concat(allCats[0]),
-        ['d1'].concat(allCats[1]),
-        ['d2'].concat(allCats[2]),
-        ['d3'].concat(allCats[3]),
-        ['d4'].concat(allCats[4]),
-        ['d5'].concat(allCats[5]),
-        ['d6'].concat(allCats[6]),
-        ['d7'].concat(allCats[7]),
-        ['d8'].concat(allCats[8]),
-        ['d9'].concat(allCats[9]),
-        ['d10'].concat(allCats[10]),
-        ['d11'].concat(allCats[11]),
-        ['d12'].concat(allCats[12]),
-        ['d13'].concat(allCats[13]),
-        ['d14'].concat(allCats[14]),
-        ['d15'].concat(allCats[15]),
-        ['d16'].concat(allCats[16]),
-        ['d17'].concat(allCats[17]),
-        ['d18'].concat(allCats[18]),
-        ['d19'].concat(allCats[19]),
-        ['d20'].concat(allCats[20]),
-        ['d21'].concat(allCats[21]),
-        ['d22'].concat(allCats[22])
+        ['Business'].concat(allCats[0]),
+        ['Weather'].concat(allCats[1]),
+        ['Utilities'].concat(allCats[2]),
+        ['Travel'].concat(allCats[3]),
+        ['Sports'].concat(allCats[4]),
+        ['Social Networking'].concat(allCats[5]),
+        ['Reference'].concat(allCats[6]),
+        ['Productivity'].concat(allCats[7]),
+        ['Photo & Video'].concat(allCats[8]),
+        ['News'].concat(allCats[9]),
+        ['Navigation'].concat(allCats[10]),
+        ['Music'].concat(allCats[11]),
+        ['Lifestyle'].concat(allCats[12]),
+        ['Health & Fitness'].concat(allCats[13]),
+        ['Games'].concat(allCats[14]),
+        ['Finance'].concat(allCats[15]),
+        ['Entertainment'].concat(allCats[16]),
+        ['Education'].concat(allCats[17]),
+        ['Books'].concat(allCats[18]),
+        ['Food & Drink'].concat(allCats[19]),
+        ['Medical'].concat(allCats[20]),
+        ['Newsstand'].concat(allCats[21]),
+        ['Catalogs'].concat(allCats[22])
       ]
     },
     axis: {
