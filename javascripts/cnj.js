@@ -36,9 +36,9 @@ function graphs(d) {
   var bindStr = '#c';
 
   for (var i = 0; i < 23; i++) {
-    var arrFiddy = d[1];
-    for (var j = 2; j < 51; j++) {
-        arrFiddy = arrFiddy.SumArray(d[j]);
+    var arrFiddy = d[1 + 50 * i];
+    for (var j = 1; j < 50; j++) {
+        arrFiddy = arrFiddy.SumArray(d[i + j]);
     }
     arrFiddy = arrFiddy.DivFiddy();
     arrFiddy = arrFiddy.Trunc();
