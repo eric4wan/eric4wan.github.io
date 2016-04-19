@@ -49,7 +49,7 @@ function graphs(d) {
     c3.generate({
       bindto: (bindStr + i.toString()),
       data: {
-        arrFiddy
+        url: 'http://eric4wan.github.io/output.csv'
       }
     });
   }
