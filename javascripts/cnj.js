@@ -34,9 +34,10 @@ function graphs(d) {
       arrFiddy = arrFiddy.SumArray(d[j]);
   }
   arrFiddy = arrFiddy.DivFiddy();
-
+  resStr = bindStr + 0 + "-" + 0;
+  console.log(resStr);
   c3.generate({
-    bindto: bindStr + 0 + "-" + 0,
+    bindto: resStr,
     data: {
       columns: [
         ['data'].concat(arrFiddy)
