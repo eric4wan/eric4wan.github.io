@@ -32,44 +32,76 @@ Papa.parse("http://eric4wan.github.io/output.csv", {
 });
 
 function graphs(d) {
+  var allCats = [];
+  var bindStr = '#c';
 
-  bindStr = '#c';
+  for (var i = 0; i < 23; i++) {
+    var arrFiddy = d[1];
+    for (var j = 2; j < 51; j++) {
+        arrFiddy = arrFiddy.SumArray(d[j]);
+    }
+    arrFiddy = arrFiddy.DivFiddy();
+    arrFiddy = arrFiddy.Trunc();
+    allCats.push(arrFiddy);
+    var resStr = bindStr + i;
 
-  $('#graphs').append("<div id='" + bindStr + "0" + "-" + "0" + "'></div>");
-
-  arrFiddy = d[1];
-  for (var j = 2; j < 51; j++) {
-      arrFiddy = arrFiddy.SumArray(d[j]);
+    c3.generate({
+      bindto: resStr,
+      data: {
+        columns: [
+          ['data'].concat(arrFiddy)
+        ]
+      },
+      axis: {
+        x: {
+          type: 'category',
+          categories: ["Analytical", "Confident", "Tentative", "Openness", "Conscientiousness", "Extraversion", "Agreeableness", "Emotional Range"]
+        }
+      },
+      legend: {
+        position: 'right'
+      }
+    });
   }
-  arrFiddy = arrFiddy.DivFiddy();
-  resStr = bindStr + 0 + "-" + 0;
-  console.log(resStr);
+
   c3.generate({
-    bindto: '#c0',
+    bindto: '#all',
     data: {
       columns: [
-        ['data'].concat(arrFiddy.Trunc())
+        ['d0'].concat(allCats[0]),
+        ['d1'].concat(allCats[1]),
+        ['d2'].concat(allCats[2]),
+        ['d3'].concat(allCats[3]),
+        ['d4'].concat(allCats[4]),
+        ['d5'].concat(allCats[5]),
+        ['d6'].concat(allCats[6]),
+        ['d7'].concat(allCats[7]),
+        ['d8'].concat(allCats[8]),
+        ['d9'].concat(allCats[9]),
+        ['d10'].concat(allCats[10]),
+        ['d11'].concat(allCats[11]),
+        ['d12'].concat(allCats[12]),
+        ['d13'].concat(allCats[13]),
+        ['d14'].concat(allCats[14]),
+        ['d15'].concat(allCats[15]),
+        ['d16'].concat(allCats[16]),
+        ['d17'].concat(allCats[17]),
+        ['d18'].concat(allCats[18]),
+        ['d19'].concat(allCats[19]),
+        ['d20'].concat(allCats[20]),
+        ['d21'].concat(allCats[21]),
+        ['d22'].concat(allCats[22])
       ]
+    },
+    axis: {
+      x: {
+        type: 'category',
+        categories: ["Analytical", "Confident", "Tentative", "Openness", "Conscientiousness", "Extraversion", "Agreeableness", "Emotional Range"]
+      }
+    },
+    legend: {
+      position: 'right'
     }
   });
-
-  // bindStr = 'c';
-  // for (var i = 0; i < 23; i++) {
-  //   arrFiddy = d[1]
-  //   for (var j = 1; j < 51; j++) {
-  //     arrFiddy.SumArray(d[(i * 50 + j)]);
-  //   }
-  //   arrFiddy = arrFiddy.DivFiddy();
-  //   $('#graphs').append("<div id='" + i + "|" + j + "|" + 1 + "'></div>");
-  //   c3.generate({
-  //     bindto: (bindStr + i.toString()),
-  //     data: {
-  //       columns: [
-  //         ['data'].concat(arrFiddy)
-  //       ]
-  //     }
-  //   });
-  // }
-
 
 }
