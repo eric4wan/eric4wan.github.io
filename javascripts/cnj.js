@@ -24,21 +24,33 @@ Papa.parse("http://eric4wan.github.io/output.csv", {
 });
 
 function graphs(d) {
-  bindStr = 'c';
-  for (var i = 0; i < 23; i++) {
-    arrFiddy = d[1]
-    for (var j = 1; j < 51; j++) {
-      arrFiddy.SumArray(d[(i * 50 + j)]);
+
+  c3.generate({
+    bindto: '#c0',
+    data: {
+      columns: [
+        ['data'].concat(arrFiddy)
+      ]
     }
-    arrFiddy = arrFiddy.DivFiddy();
-    $('#graphs').append("<div id='" + i + "|" + j + "|" + 1 + "'></div>");
-    c3.generate({
-      bindto: (bindStr + i.toString()),
-      data: {
-        columns: [
-          ['data'].concat(arrFiddy)
-        ]
-      }
-    });
-  }
+  });
+
+  // bindStr = 'c';
+  // for (var i = 0; i < 23; i++) {
+  //   arrFiddy = d[1]
+  //   for (var j = 1; j < 51; j++) {
+  //     arrFiddy.SumArray(d[(i * 50 + j)]);
+  //   }
+  //   arrFiddy = arrFiddy.DivFiddy();
+  //   $('#graphs').append("<div id='" + i + "|" + j + "|" + 1 + "'></div>");
+  //   c3.generate({
+  //     bindto: (bindStr + i.toString()),
+  //     data: {
+  //       columns: [
+  //         ['data'].concat(arrFiddy)
+  //       ]
+  //     }
+  //   });
+  // }
+
+
 }
