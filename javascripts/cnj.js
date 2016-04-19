@@ -15,6 +15,14 @@ Array.prototype.DivFiddy = function () {
   return this;
 }
 
+Array.prototype.Trunc = function() {
+  var short = [];
+  for (var i = 2; i < this.length; i++) {
+    short.push(this[i]);
+  }
+  return short;
+}
+
 Papa.parse("http://eric4wan.github.io/output.csv", {
 	download: true,
 	complete: function(results) {
@@ -40,7 +48,7 @@ function graphs(d) {
     bindto: '#c0',
     data: {
       columns: [
-        ['data'].concat(arrFiddy)
+        ['data'].concat(arrFiddy.Trunc())
       ]
     }
   });
