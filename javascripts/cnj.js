@@ -2,6 +2,7 @@ Array.prototype.SumArray = function (arr) {
     var sum = [];
     console.log(this, arr);
     if (arr != null && this.length == arr.length) {
+      console.log("ASD");
         for (var i = 0; i < arr.length; i++) {
             sum.push(parseFloat(this[i]) + parseFloat(arr[i]));
         }
@@ -30,7 +31,7 @@ function graphs(d) {
   for (var j = 2; j < 51; j++) {
       arrFiddy.SumArray(d[j]);
   }
-  arrFiddy = arrFiddy.DivFiddy();
+  // arrFiddy = arrFiddy.DivFiddy();
 
   c3.generate({
     bindto: '#c0',
