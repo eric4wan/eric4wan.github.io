@@ -33,20 +33,24 @@
 Papa.parse("http://eric4wan.github.io/output.csv", {
 	download: true,
 	complete: function(results) {
-    console.log("done");
     console.log(results);
-    graphs(results);
+    graphs(results.data);
 	}
 });
 
-function graphs(csvStr) {
+function graphs(d) {
   bindStr = 'c';
   for (var i = 0; i < 23; i++) {
+    arrFiddy = [];
+    for (var j = 1; j < 51; j++) {
+      arrFiddy.push(d[(i * 50 + j)]);
+    }
+    $('#graphs').append("<div id='" + i + "|" + j + "|" + 1 + "'></div>");
     c3.generate({
-      bindto: (bindStr + str(i)),
+      bindto: (bindStr + i.toString()),
       data: {
-
+        arrFiddy
       }
-    })
+    });
   }
 }
