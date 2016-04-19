@@ -27,7 +27,7 @@ function graphs(d) {
 
   arrFiddy = d[1];
   for (var j = 1; j < 51; j++) {
-       arrFiddy.SumArray(d[(i * 50 + j)]);
+       arrFiddy.SumArray(d[j]);
      }
      arrFiddy = arrFiddy.DivFiddy();
 
